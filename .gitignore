@@ -1,0 +1,8 @@
+/.aws
+/.bashrc
+/.cache
+/.ipython
+/.local
+/.vscode-server-oss
+/sagemaker-code-editor-server-data
+/user-default-efs
