@@ -4,9 +4,8 @@
 
 Using the Sagemaker SDK, I developed a Sagemaker Pipeline for data processing, model training/tuning and evaluation. Upon evaluation, the Pipeline decides whether the model should be registered. In the real world, a model deployment pipeline (not shown here) could follow by taking the registered model and deploying it to a Sagemaker endpoint or self-managed endpoint for realtime inference for customers.
 
-<br>
 ## Business Benefits
-<br>
+
 The advantages of using a pipeline are reproducibility and speed. Since all the data processing, model tuning & evaluation steps are wrapped up in one abstraction, users need only interact with the high-level pipeline. This enables quicker model development. Also, different end users can execute a pipeline with different parameter values, based on their use case. For example, some users may require a simplistic model so they can more easily explain the model to their consumers. Parameters such as max_depth can be set prior to pipeline execution.
 
 ## Methodology
