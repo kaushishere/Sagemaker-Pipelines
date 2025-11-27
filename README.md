@@ -1,4 +1,4 @@
-# Model Registry Pipeline for a Fraud Detection Classification Model
+# Model Registry Pipeline for a Classification Model
 ## Executive Summary
 Using the Sagemaker SDK, I developed a Sagemaker Pipeline to preprocess data, train & tune a Decision Tree Classifier model and then evaluate its performance on test data. Upon evaluation, the Pipeline decides whether the model should be registered. From there, a model deployment pipeline (not shown here) can take the registered model and deploy to a Sagemaker endpoint or self-managed endpoint.
 
